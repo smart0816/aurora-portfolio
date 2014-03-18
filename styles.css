@@ -113,6 +113,39 @@ section {
     font-size: 2.5rem;
 }
 
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.skills {
+    margin-top: 2rem;
+}
+
+.skills h3 {
+    margin-bottom: 1rem;
+    color: #2c3e50;
+}
+
+.skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill-tag {
+    background: #3498db;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    transition: transform 0.3s;
+}
+
+.skill-tag:hover {
+    transform: translateY(-2px);
+}
+
 .portfolio-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
