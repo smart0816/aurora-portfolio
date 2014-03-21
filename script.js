@@ -110,3 +110,4 @@ document.addEventListener('DOMContentLoaded', function() {
     // Trigger initial animation check
     animateOnScroll();
 });
+// Add Google Analytics tracking
