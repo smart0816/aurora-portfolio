@@ -271,3 +271,4 @@ footer {
     }
 }
 /* Performance optimizations */
+.loading { opacity: 0.5; }
